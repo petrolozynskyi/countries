@@ -94,19 +94,6 @@ ng build --prod
 
 The build artifacts will be stored in the `dist/` directory.
 
-## Running Tests
-
-To execute the unit tests via Karma:
-
-```
-ng test
-```
-
-To execute the end-to-end tests via Protractor:
-
-```
-ng e2e
-```
 
 ## Environment Variables
 
