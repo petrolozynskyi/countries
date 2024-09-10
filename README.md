@@ -26,7 +26,7 @@ You can see how it works by visiting this link:
 
 ### `CountryService`
 
-The `CountryService` is responsible for managing API calls and data related to countries and their holidays. It uses Angular's `HttpClient` to interact with the Nager.Date API.
+The `CountryService` is responsible for managing API calls and data related to countries and their holidays.
 
 #### `getCountries()`
 
