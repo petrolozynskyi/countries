@@ -2,6 +2,10 @@
 
 This Angular application allows users to search for countries and view their public holidays. It also displays random countries with their next upcoming holiday.
 
+## DEMO LINK You can see how it works by visiting this link: 
+# You can see how it works by visiting this link:
+https://petrolozynskyi.github.io/countries/
+
 ## Features
 
 - Search for countries by name
