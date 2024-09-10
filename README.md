@@ -60,5 +60,70 @@ This application is built using Angular and follows these key architectural poin
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/petrolozynskyi/countries.git
+   ```
+   git clone https://github.com/yourusername/country-holidays-app.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd country-holidays-app
+   ```
+
+3. Install dependencies:
+   ```
+   npm install
+   ```
+
+## Running the Application
+
+To run the application in development mode:
+
+```
+ng serve
+```
+
+Navigate to `http://localhost:4200/` in your browser. The app will automatically reload if you change any of the source files.
+
+## Building the Application
+
+To build the application for production:
+
+```
+ng build --prod
+```
+
+The build artifacts will be stored in the `dist/` directory.
+
+## Running Tests
+
+To execute the unit tests via Karma:
+
+```
+ng test
+```
+
+To execute the end-to-end tests via Protractor:
+
+```
+ng e2e
+```
+
+## Environment Variables
+
+The application uses environment variables for configuration. These are stored in a `environment.ts` file in the `src/environment` directory. The following variables are used:
+
+- `API_BASE_URL`: The base URL for the Nager.Date API
+
+## Code Quality
+
+This project uses ESLint for linting and Prettier for code formatting. To run the linter:
+
+```
+npm run lint
+```
+
+To format the code:
+
+```
+npx prettier --write .
+```
