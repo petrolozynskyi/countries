@@ -22,24 +22,6 @@ You can see how it works by visiting this link:
 - **Random Country Generator**: Picks random countries and displays their next holiday.
 - **Yearly Holiday View**: Allows users to switch between different years to view holidays.
 
-## Services
-
-### `CountryService`
-
-The `CountryService` is responsible for managing API calls and data related to countries and their holidays.
-
-#### `getCountries()`
-
-- **Description**: Fetches a list of all countries from the Nager.Date API.
-- **Returns**: An observable of the list of countries, which can be used to populate country data in the application.
-
-#### `getCountryHolidays(countryCode: string, year: number)`
-
-- **Description**: Retrieves public holidays for a specific country and year.
-- **Parameters**: 
-  - `countryCode` (string): The code of the country for which holidays are to be fetched.
-  - `year` (number): The year for which the holidays are to be retrieved.
-- **Returns**: An observable of the list of holidays for the specified country and year.
 
 ## Architecture
 
